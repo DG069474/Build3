@@ -6,5 +6,5 @@ repositories {
 
 
 dependencies {
-    build 'junit:junit:4.12'
+    compileTestJava 'junit:junit:4.12'
 }
