@@ -12,4 +12,12 @@ public class testAdds {
 		AddsNum add = new AddsNum();
 		assertEquals(answer, add.adds(1,1));
 	}
+	
+	@Test
+	public void testAddwrong() {
+		int answer = 1;
+		
+		AddsNum add = new AddsNum();
+		assertFalse(answer == add.adds(1,1));
+	}
 }
