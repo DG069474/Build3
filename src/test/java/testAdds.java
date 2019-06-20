@@ -15,7 +15,7 @@ public class testAdds {
 	
 	@Test
 	public void testAddwrong() {
-		int answer = 1;
+		int answer = 2;
 		
 		AddsNum add = new AddsNum();
 		assertFalse(answer == add.adds(1,1));
