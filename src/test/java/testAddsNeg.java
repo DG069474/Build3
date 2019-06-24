@@ -7,15 +7,15 @@ public class testAddsNeg {
 	public void testAdd1Plus1() {
 		int answer = 2;
 		
-		AddsNum add = new AddsNum();
-		assertEquals(answer, add.adds(-2,4));
+		AddsNum add = new AddsNum(-2,4);
+		assertEquals(answer, add.adds());
 	}
 	
 	@Test
 	public void testAddwrong() {
 		int answer = 1;
 		
-		AddsNum add = new AddsNum();
-		assertFalse(answer == add.adds(1,1));
+		AddsNum add = new AddsNum(1,1);
+		assertFalse(answer == add.adds());
 	}
 }
