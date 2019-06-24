@@ -1,4 +1,3 @@
-package sourcefiles;
 
 public class AddsNum {
 	private int one;
